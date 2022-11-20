@@ -1,0 +1,61 @@
+body {
+    background-image: url(fonnddd.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 350%;
+    color: antiquewhite;
+}
+
+.pdp {
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.pdp:hover {
+    transform: scale(1.2);
+}
+
+
+.carousel-inner img {
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.carousel-control-prev {
+    margin: 250px;
+}
+
+.carousel-control-next {
+    margin: 250px;
+}
+
+.pres {
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    background: linear-gradient(60deg, rgb(78, 6, 6), #fff, rgb(78, 6, 6));
+    letter-spacing: 3px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 80%;
+    animation: shine 8s linear infinite;
+}
+
+@keyframes shine {
+    0% {
+        background-position-x: -500%;
+    }
+
+    100% {
+        background-position-x: 500%;
+    }
+}
